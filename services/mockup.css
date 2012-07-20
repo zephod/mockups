@@ -1,4 +1,12 @@
-body {
+footer {
+  margin-top: 0;
+}
+footer > .inner {
+  padding-top: 20px;
+  background-image: url('http://assets.okfn.org/web/images/footer-bevel-deep.png');
+}
+.button-bar {
+  margin-bottom: 0;
 }
 .pane {
   background: #f0f;
@@ -12,29 +20,78 @@ body {
 }
 
 .pane1 { background: #fcc; }
-.pane3 { background: #ccf; }
-.pane3 { background: #cfc; }
+.pane2 { background: #ccf; }
+.pane3 { background: #c8c; }
+.pane4 { background: #cff; }
+.pane5 { background: #ffc; }
 
-.pane1 p.logo {
-  left: 50px;
-  top: 200px;
+.pane1 .text1 {
+  left: 0px;
+  top: 90px;
   font-size: 80px;
   font-family: OpenSansLight;
 }
-.pane2 p.howareyou {
-  right: 50px;
-  top: 100px;
+.pane1 .text2 {
+  right: 0;
+  top: 190px;
   font-size: 60px;
   font-family: OpenSansLight;
 }
-
-.pane .title {
+.pane2 .text1 {
+  left: 0px;
+  top: 90px;
+  font-size: 60px;
+  font-family: OpenSansLight;
+}
+.pane2 .text2 {
+  right: 0;
+  top: 190px;
+  font-size: 80px;
+  font-family: OpenSansLight;
+}
+.pane3 .text1 {
+  left: 0;
+  top: 50px;
+  font-size: 60px;
+  font-family: OpenSansLight;
+}
+.pane3 .title {
   text-align: center;
-  padding: 30px 0;
+  padding: 150px 0 30px 0;
   font-size: 50px;
   font-family: OpenSansLight;
 }
+.pane3 .divider1 { left: 33%; }
+.pane3 .divider2 { left: 66%; }
+.pane3 .divider {
+  width: 2px;
+  height: 400px;
+  position: absolute;
+  top: 130px;
+  background: rgba(0,0,0,0.2);
+}
 
-footer {
-  margin-top: 0;
+.pane4 .text1 {
+  left: 0px;
+  top: 90px;
+  font-size: 60px;
+  font-family: OpenSansLight;
+}
+.pane4 .text2 {
+  right: 0;
+  top: 190px;
+  font-size: 80px;
+  font-family: OpenSansLight;
+}
+.pane5 .text1 {
+  left: 0px;
+  top: 90px;
+  font-size: 60px;
+  font-family: OpenSansLight;
+}
+.pane5 .text2 {
+  right: 0;
+  top: 190px;
+  font-size: 80px;
+  font-family: OpenSansLight;
 }
