@@ -1,2 +1,40 @@
 body {
 }
+.pane {
+  background: #f0f;
+  height: 600px;
+}
+.pane > .container {
+  position: relative;
+}
+.pane p {
+  position: absolute;
+}
+
+.pane1 { background: #fcc; }
+.pane3 { background: #ccf; }
+.pane3 { background: #cfc; }
+
+.pane1 p.logo {
+  left: 50px;
+  top: 200px;
+  font-size: 80px;
+  font-family: OpenSansLight;
+}
+.pane2 p.howareyou {
+  right: 50px;
+  top: 100px;
+  font-size: 60px;
+  font-family: OpenSansLight;
+}
+
+.pane .title {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 50px;
+  font-family: OpenSansLight;
+}
+
+footer {
+  margin-top: 0;
+}
